@@ -1,0 +1,20 @@
+xst -intstyle ise -ifn "C:/Work/Xilinx/AccumulatorArchitecture/AccumulatorHWA.xst" -ofn "C:/Work/Xilinx/AccumulatorArchitecture/AccumulatorHWA.syr" 
+xst -intstyle ise -ifn "C:/Work/Xilinx/AccumulatorArchitecture/AccumulatorHWA.xst" -ofn "C:/Work/Xilinx/AccumulatorArchitecture/AccumulatorHWA.syr" 
+xst -intstyle ise -ifn "C:/Work/Xilinx/AccumulatorArchitecture/AccumulatorHWA.xst" -ofn "C:/Work/Xilinx/AccumulatorArchitecture/AccumulatorHWA.syr" 
+xst -intstyle ise -ifn "C:/Work/Xilinx/AccumulatorArchitecture/AccumulatorHWA.xst" -ofn "C:/Work/Xilinx/AccumulatorArchitecture/AccumulatorHWA.syr" 
+xst -intstyle ise -ifn "C:/Work/Xilinx/AccumulatorArchitecture/AccumulatorHWA.xst" -ofn "C:/Work/Xilinx/AccumulatorArchitecture/AccumulatorHWA.syr" 
+xst -intstyle ise -ifn "C:/Work/Xilinx/AccumulatorArchitecture/AccumulatorHWA.xst" -ofn "C:/Work/Xilinx/AccumulatorArchitecture/AccumulatorHWA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I AccumulatorHWA.ngc AccumulatorHWA.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o AccumulatorHWA_map.ncd AccumulatorHWA.ngd AccumulatorHWA.pcf 
+par -w -intstyle ise -ol high -mt off AccumulatorHWA_map.ncd AccumulatorHWA.ncd AccumulatorHWA.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml AccumulatorHWA.twx AccumulatorHWA.ncd -o AccumulatorHWA.twr AccumulatorHWA.pcf 
+xst -intstyle ise -ifn "C:/Work/Xilinx/AccumulatorArchitecture/AccumulatorHWA.xst" -ofn "C:/Work/Xilinx/AccumulatorArchitecture/AccumulatorHWA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I AccumulatorHWA.ngc AccumulatorHWA.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o AccumulatorHWA_map.ncd AccumulatorHWA.ngd AccumulatorHWA.pcf 
+par -w -intstyle ise -ol high -mt off AccumulatorHWA_map.ncd AccumulatorHWA.ncd AccumulatorHWA.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml AccumulatorHWA.twx AccumulatorHWA.ncd -o AccumulatorHWA.twr AccumulatorHWA.pcf 
+xst -intstyle ise -ifn "C:/Work/Xilinx/AccumulatorArchitecture/AccumulatorHWA.xst" -ofn "C:/Work/Xilinx/AccumulatorArchitecture/AccumulatorHWA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-1I AccumulatorHWA.ngc AccumulatorHWA.ngd  
+map -intstyle ise -p xa7a100t-csg324-1I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o AccumulatorHWA_map.ncd AccumulatorHWA.ngd AccumulatorHWA.pcf 
+par -w -intstyle ise -ol high -mt off AccumulatorHWA_map.ncd AccumulatorHWA.ncd AccumulatorHWA.pcf 
+trce -intstyle ise -v 3 -s 1I -n 3 -fastpaths -xml AccumulatorHWA.twx AccumulatorHWA.ncd -o AccumulatorHWA.twr AccumulatorHWA.pcf 

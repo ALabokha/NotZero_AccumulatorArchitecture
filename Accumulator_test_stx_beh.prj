@@ -1,0 +1,5 @@
+vhdl isim_temp "commands.vhd"
+vhdl isim_temp "ROM.vhd"
+vhdl isim_temp "RAM.vhd"
+vhdl isim_temp "HWANonZeroAmount.vhd"
+vhdl isim_temp "Accumulator_test.vhd"
